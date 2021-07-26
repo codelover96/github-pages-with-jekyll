@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my blog"
+title: "Blog | Home"
 ---
 Hi I'm Costas Patsaras, software engineer and as my github name suggests, a code lover.
 
