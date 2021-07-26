@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Blog Introduction"
+---
+
 # Introduction
 My blog posts are built using Github Pages and Jekyll.
 You can create your own blog with Github Pages using [this guide](https://lab.github.com/githubtraining/github-pages)
@@ -6,3 +11,11 @@ Generally my blog posts will have a how-to attidude and showcase how I have buil
 Otherwise I will just post about interesting projects of mine or other's.
 
 ~codelover96
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
