@@ -12,12 +12,3 @@ Generally my blog posts will have a how-to attidude and showcase how I have buil
 Otherwise I will just post about interesting projects of mine or other's.
 
 ~codelover96
-
-# All blog posts:
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
