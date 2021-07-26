@@ -13,6 +13,7 @@ Otherwise I will just post about interesting projects of mine or other's.
 
 ~codelover96
 
+# All blog posts:
 <ul>
   {% for post in site.posts %}
     <li>
